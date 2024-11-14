@@ -1,0 +1,28 @@
+{
+  "name": "aicpa_tech_challenge",
+  "version": "1.0.0",
+  "description": "## General Description",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:watch": "npx vitest --watch",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.17.13",
+    "@types/node": "^22.9.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.691.0",
+    "@azure/storage-blob": "^12.25.0",
+    "cloudinary": "^2.5.1",
+    "lodash": "^4.17.21"
+  }
+}
